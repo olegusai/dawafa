@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding:10px ;
+    left:  50px;
+    right: 50px;
+    border-top: dotted blue ;
+    border-bottom: dotted blue ;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgba(0, 98, 255, 0.538);
+    border-radius: 15px;
+    
+}
+nav a:hover{
+    margin: 5px;
+    transition: 0.2s;
+    background-color: rgb(93, 91, 230);
+    
+   
+}
+
+
+
+h2 {
+}
+
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content:start;
+    
+   margin-top: 200px;
+   flex-wrap: wrap;
+    
+}
+.q1{
+    padding: 5px;
+    background-color:white ;
+}
+.product {
+ display: block;
+ width: auto;
+ height: 220px;
+ background-color: rgba(0, 98, 255, 0.538);
+ padding:20px;
+ border-radius: 10px;
+ text-align: center;
+ margin: 15px;
+ 
+}
+.product img {
+   justify-content: center;
+    width: auto;
+    height: 170px;
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.product:hover {
+background-color: rgb(89, 89, 230);
+transition: 0.3s;
+margin:8px ;
+
+}
+
+
+
+.principle {
+    width: 120px;
+}
+
+
+   
+
+.question {
+   
+}
+
+.
